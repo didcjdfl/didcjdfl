@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>불만 게시판</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>불만 게시판</h1>
+    </header>
+    <main>
+        <section>
+            <h2>불만 제출</h2>
+            <form id="complaintForm">
+                <label for="complaint">불만 내용:</label>
+                <textarea id="complaint" required></textarea>
+                <button type="submit">제출</button>
+            </form>
+        </section>
+        <section>
+            <h2>불만 목록</h2>
+            <ul id="complaintList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 불만 게시판</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
